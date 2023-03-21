@@ -23,9 +23,9 @@ type Hash interface {
 
 const (
 	rollingWindow     = 7
-	blockMin          = 3
+	blockMin          = 2
 	spamSumLength     = 64
-	minFileSize       = 4096
+	minFileSize       = 1
 	hashPrime         = 0x93
 	hashInit          = 0x27
 	b64String         = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
